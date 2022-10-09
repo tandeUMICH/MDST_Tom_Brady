@@ -5,5 +5,4 @@ import string
 
 def main():
     df = pd.read_csv('../data/TB_data.csv')
-    print(df.head(10))
-    
+    print(df.head())
